@@ -1,6 +1,6 @@
 
 //OBTENER NOSOTROS
-axios.get('https://localhost:7167/api/SiteWeb/Us')
+axios.get('https://lappapiwebtwc.azurewebsites.net/api/SiteWeb/Us')
     .then((respuesta) => {
 
         $("#usText").text(respuesta.data[0].description);
@@ -10,7 +10,7 @@ axios.get('https://localhost:7167/api/SiteWeb/Us')
         console.log('No funcionas')
     })
 
-axios.get('https://localhost:7167/api/SiteWeb/Purpose')
+axios.get('https://lappapiwebtwc.azurewebsites.net/api/SiteWeb/Purpose')
     .then((respuesta) => {
 
         $("#idPurpose").text(respuesta.data[0].description);
@@ -21,7 +21,7 @@ axios.get('https://localhost:7167/api/SiteWeb/Purpose')
     })
 
 //OBTENER BANNER
-axios.get('https://localhost:7167/api/SiteWeb/BANNER')
+axios.get('https://lappapiwebtwc.azurewebsites.net/API/SiteWeb/BANNER')
     .then((respuesta) => {
 
         //GENERAMOS CARRUSEL
