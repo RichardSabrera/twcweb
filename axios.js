@@ -8,7 +8,7 @@ $('#loader').hide();
 
 function all() {
     $.ajax({
-        url: 'https://zealous-bay-083bf620f.4.azurestaticapps.net/api/SiteWeb/GetCargarTodo',
+        url: 'https://appapiwebtwc.azurewebsites.net/api/SiteWeb/GetCargarTodo',
         method: 'GET',
         success: function (respuesta) {
 
